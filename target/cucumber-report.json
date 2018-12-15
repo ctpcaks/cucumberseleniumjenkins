@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Login Positivo",
+        "description": "",
+        "id": "login;login-positivo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6455939477,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "que o Ususario acessa o site TestLink",
+            "match": {
+              "location": "Login.que_o_Ususario_acessa_o_site_TestLink()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4412822564,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "preenche seu login e senha e aperta o Enter",
+            "match": {
+              "location": "Login.preenche_seu_login_e_senha_e_aperta_o_Enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 895557977,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "exibe a pagina principal com o usuario e perfil logado",
+            "match": {
+              "location": "Login.exibe_a_pagina_principal_com_o_usuario_e_perfil_logado()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
